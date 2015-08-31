@@ -1,0 +1,20 @@
+/* 1 */
+{
+    "_id" : ObjectId("55e411d549054883cea9b5d7"),
+    "name" : "tt",
+    "task" : "tasks.test",
+    "enabled" : true,
+    "crontab" : {
+        "minute" : "1",
+        "hour" : "*",
+        "day_of_week" : "*",
+        "day_of_month" : "*",
+        "month_of_year" : "*"
+    },
+    "args" : [ 
+        "http://www.tangshan.gov.cn"
+    ],
+    "kwargs" : {},
+    "total_run_count" : 5,
+    "last_run_at" : ISODate("2014-04-03T02:19:22.666Z")
+}
