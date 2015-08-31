@@ -1,0 +1,38 @@
+
+{"name":"",
+        "columns":[{
+            "name":"tangshan",
+            "url":"http://www.tangshan.gov.cn",
+            "times":20,
+            "time_unit":"day",
+            "duration":7,
+            "area_xpath":"//*",
+            "check":"alive",
+            "type":"homepage",
+            "column_type":""
+        },
+       {
+            "name":"",
+            "url":"",
+            "times":24,
+            "time_unit":"day",
+            "duration":7,
+            "area_xpath":"",
+            "check":"update",
+            "type":"homepage_column",
+            "column_type":"state_news"
+       },
+            {
+            "name":"今日唐山",
+            "url":"http://www.tangshan.gov.cn/zhuzhan/jrts/",
+            "times":20,
+            "time_unit":"day",
+            "duration":14,
+            "area_xpath":"",
+            "check":"update",
+            "type":"normal_column",
+            "column_type":"state_news"
+            }
+        ]
+    }
+
